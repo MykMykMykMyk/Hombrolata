@@ -14,5 +14,6 @@ NDefines.NCountry.BREAK_MARRIAGE_STABILITY_PENALTY = 0
 NDefines.NMilitary.MIN_MONTHLY_MANPOWER = 0.2
 NDefines.NCountry.NAT_FOCUS_DECREASE = -3
 NDefines.NCountry.NAT_FOCUS_INCREASE = 5
-NDefines.NCountry.NAT_FOCUS_YEARS = 0
+NDefines.NCountry.NAT_FOCUS_YEARS = 5
+NDefines.NCountry.NAT_FOCUS_YEARS_RANK = 0
 
