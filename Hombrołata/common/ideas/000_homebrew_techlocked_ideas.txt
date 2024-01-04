@@ -361,6 +361,7 @@ kriegsproduktion0 = {
 		}
 	}
 }
+
 shock0 = {
 	category = MIL
 	
@@ -382,7 +383,7 @@ shock0 = {
 		
 	shock1 = {
 		morale_damage_received = -0.075
-		fire_damage = -0.10
+		fire_damage = -0.15
 	}
 	shock2 = {
 		reserves_organisation = 0.25
