@@ -293,22 +293,23 @@ defensive_ideas = {
 		shock_damage = -0.1
 	}
 	military_drill = {
-		land_morale = 0.075	
+		fort_maintenance_modifier = -0.25
 	}
 	fish_in_a_barrel = {
-		leader_land_fire = 1
+		leader_land_manuever = 1
 	}
 	regimental_system = {
-		morale_damage_received = -0.075
+		land_morale = 0.075
 	}
 	defensive_mentality = {
-		defensiveness = 0.4
+		defensiveness = 0.15
+		siege_ability = -0.15
 	}
 	supply_trains = {
-		reinforce_speed = 0.25
+		garrison_damage = 0.25
 	}
 	improved_foraging = {
-		garrison_size = 0.5
+		garrison_size = 0.4
 	}
 
 	ai_will_do = {
