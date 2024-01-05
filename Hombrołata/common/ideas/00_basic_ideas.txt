@@ -828,32 +828,33 @@ quantity_ideas = {
 	category = MIL
 
 	bonus = {
-		land_forcelimit_modifier  = 0.25
+		land_forcelimit_modifier  = 0.20
 		nl_old_guard_influence = 0.05
 	}
 	garrison_conscription = {
-		global_manpower_modifier = 0.125
-		discipline = -0.025
+		global_manpower_modifier = 0.2
+		discipline = -0.035
 	}
 	the_young_can_serve = {
-		manpower_recovery_speed = 0.25
+		manpower_recovery_speed = 0.20
 	}
 	enforced_service = {
 		global_regiment_cost = -0.15
 	}
 	lumber_yards = {
 		cav_to_inf_ratio = 0.25
-		land_morale = 0.075
+		land_morale = 0.05
 	}
 	bullandhorns = {  
 		yearly_army_professionalism = -0.003
+		reinforce_speed = 0.20
 	}
 	expanded_supply_trains = {
 		land_attrition = -0.15
 		global_supply_limit_modifier = 1
 	}
 	depth_defense = {  
-		global_manpower_modifier = 0.125
+		free_land_leader_pool = 2
 	}
 	
 	ai_will_do = {
