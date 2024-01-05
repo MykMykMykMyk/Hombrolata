@@ -280,32 +280,35 @@ AIG_legionary_ideas = {
 	}
 	AIG_phlanx_formation = {
 		shock_damage_received = -0.05
+		reserves_organisation = -0.20
 	}
 	AIG_infantry_en_masse = {
 		infantry_cost = -0.10
 		infantry_power = 0.05
 	}
 	AIG_always_on_campaign = {
-		army_tradition_decay = -0.007
+		army_tradition_decay = -0.005
+		missionary_strength = 0.005
 	}
 	#AIG_foreign_auxilleries = {
 	#	merc_maintenance_modifier = -0.10
 	#	mercenary_manpower = 0.10
 	#}
 	AIG_religious_wars = {
-		missionary_strength = 0.005
+		manpower_recovery_speed = 0.15
 		#gain manpower from converting land
 	}
 	AIG_centralising_our_base = {
 		reduced_liberty_desire = 5
-		vassal_forcelimit_bonus = 0.33
+		vassal_forcelimit_bonus = 0.50
 	}
 	AIG_sun_elf_battlemages = {
-		shock_damage = 0.1
+		shock_damage = 0.05
+		fire_damage = 0.05
 	}
 	AIG_administering_the_fringes = {
 		liberty_desire_from_subject_development = -0.20
-		
+		global_regiment_cost = 0.10
 	}
 	ai_will_do = {
 		factor = 0.34
