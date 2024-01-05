@@ -817,30 +817,31 @@ soldnerheer0 = {
 	
 	soldnerheer2 = {
 		yearly_army_professionalism = -0.005
+		merc_leader_army_tradition = 0.25
 	}
 	soldnerheer1 = {
-		ae_impact = -0.1
+		ae_impact = 0.1
+		mercenary_manpower = 0.30
 	}
 	soldnerheer3 = {
 		recover_army_morale_speed = 0.1
-		mercenary_manpower = 0.3
 	}
 
 	soldnerheer4 = {
 		merc_maintenance_modifier = -0.20
+		allow_mercenary_drill = yes
 	}
 
 	soldnerheer5 = {
 		trade_range_modifier = 0.25
-		land_morale = 0.1
 		# unlocks new merc companies
 	}
 	soldnerheer6 = {
-		army_tradition_from_battle = 0.5
+		allow_mercenaries_to_split = yes
 	}
 	soldnerheer7 = {
 		#remove professionalism malus from merc recruit
-		land_forcelimit_modifier = 0.1
+		land_morale = 0.05
 	}
 
 	
@@ -856,10 +857,6 @@ soldnerheer0 = {
 				region = west_castanor_region
 				}
 			}
-		}
-		modifier = {
-			factor = 1.5 #mercs and AE are important in EoA
-			is_part_of_hre = yes
 		}
 		modifier = {
 			factor = 1.5 #it'd be a little silly if they don't take this
