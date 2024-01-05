@@ -241,12 +241,12 @@ offensive_ideas = {
 	category = MIL
 
 	bonus = {
-		land_attrition = -0.15
+		land_attrition = -0.2
 	}
 
 	bayonet_leaders = {
-		fire_damage_received = 0.05
-		shock_damage_received = 0.05
+		fire_damage_received = 0.10
+		shock_damage_received = 0.10
 		fire_damage = 0.10
 		shock_damage = 0.10
 	}
@@ -262,13 +262,14 @@ offensive_ideas = {
 	}
 	engineer_corps = {
 		siege_ability = 0.15
+		defensiveness = -0.15
 	}
 	grand_army = {
-		global_supply_limit_modifier = 0.5
-		land_forcelimit_modifier = 0.10
+		reinforce_speed = 0.15
 	}
 	napoleonic_warfare = {
-		discipline = 0.035
+		assault_fort_ability = 0.50
+		artillery_barrage_cost = -0.50
 	}
 
 	ai_will_do = {
