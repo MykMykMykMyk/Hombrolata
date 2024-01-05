@@ -750,6 +750,7 @@ stehendesheer0 = {
 	}
 	stehendesheer6 = {
 		capped_by_forcelimit = yes
+		mercenary_manpower = -1.5
 		drill_decay_modifier = -0.25
 	}
 	stehendesheer7 = {

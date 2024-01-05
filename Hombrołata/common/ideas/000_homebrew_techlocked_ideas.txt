@@ -348,7 +348,7 @@ kriegsproduktion0 = {
 		merchants = 1
 	}
 	kriegsproduktion6 = {
-		global_trade_goods_size = 0.1
+		global_trade_goods_size_modifier = 0.1
 		war_exhaustion_cost = 0.30
 	}
 	kriegsproduktion7 = {
