@@ -385,7 +385,7 @@ shock0 = {
 		fire_damage = -0.15
 	}
 	shock2 = {
-		reserves_organisation = 0.25
+		reserves_organisation = 0.20
 	}
 	shock3 = {
 		cavalry_cost = -0.10
@@ -476,7 +476,7 @@ fire0 = {
 		artillery_power = 0.075
 	}
 	fire6 = {
-		backrow_artillery_damage = 0.10
+		backrow_artillery_damage = 0.075
 	}
 	fire7 = {
 		leader_land_fire = 1
