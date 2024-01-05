@@ -213,7 +213,7 @@ formation0 = {
 AIG_serpentspine_ideas = {
 	category = MIL
 	bonus = {
-		build_time = -0.25
+		build_cost = -0.1
 	}
 	trigger = {
 		any_owned_province = {
@@ -232,7 +232,7 @@ AIG_serpentspine_ideas = {
 		fort_maintenance_modifier = 0.15
 	}
 	AIG_hostile_ground = {
-		build_cost = -0.1
+		build_time = -0.25
 	}
 	AIG_under_fire = {
 		fire_damage_received = -0.05
