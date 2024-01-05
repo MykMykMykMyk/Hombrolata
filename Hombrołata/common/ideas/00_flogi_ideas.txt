@@ -680,34 +680,32 @@ generalstab0 = {
 	
 	generalstab1 = {
 		leader_cost = 0.33
-		state_maintenance_modifier = 0.33
-		manpower_recovery_speed = -0.10
+		army_tradition = 0.5
 	}
 	generalstab2 = {
 		max_general_fire = 1
-		leader_land_fire = 1
+		max_general_shock = 1
 	}
 	generalstab3 = {
 		max_general_maneuver = 1
 	}
 
 	generalstab4 = {
-		max_general_siege = 1
-	}
-
-	generalstab5 = {
 		leader_naval_fire = 1
 		leader_naval_shock = 1
 	}
+
+	generalstab5 = {
+		army_tradition_decay = -0.0075
+		global_regiment_cost = 0.125
+	}
 	generalstab6 = {
-		max_general_shock = 1
-		leader_land_shock = 1
+		max_general_siege = 1
+		leader_siege = 1
 	}
 	generalstab7 = {
 		#recruiting generals/admirals grants +2/+3 army/naval trad
-		army_tradition_decay = -0.0075
-		army_tradition = 0.5
-		
+		may_recruit_female_generals = yes
 	}
 	
 	ai_will_do = {
