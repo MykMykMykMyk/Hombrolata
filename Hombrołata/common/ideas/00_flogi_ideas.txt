@@ -935,25 +935,26 @@ waffenqualitat0 = {
 		
 	
 	waffenqualitat1 = {
-		reinforce_cost_modifier = 0.25
-		reinforce_speed = -0.25
+		reinforce_speed = -0.20
+		mil_tech_cost_modifier = -0.1
 	}
 	waffenqualitat2 = {
-		reserves_organisation	= 0.10
+		reserves_organisation = 0.20
 	}
 	waffenqualitat3 = {
-		siege_ability = 0.1
+		yearly_army_professionalism = 0.003	
 	}
 
 	waffenqualitat4 = {
-		infantry_power =0.05
+		infantry_power = 0.05
 	}
 
 	waffenqualitat5 = {
-		cavalry_power =0.05
+		cavalry_power = 0.05
+		reinforce_cost_modifier = 0.20
 	}
 	waffenqualitat6 = {
-		land_forcelimit_modifier = 0.1
+		backrow_artillery_damage = 0.05
 	}
 	hb_glorious_display = {
 		morale_damage = 0.075
