@@ -1011,7 +1011,10 @@ festung0 = {
 				}
 			} # only allow this if you're in the serpentspine
 		}
-		NOT = { mil_tech = 12 } #advanced fortifications starts getting good at fort level 4
+		modifier = {
+			factor = 0
+			NOT = { mil_tech = 12 } #advanced fortifications starts getting good at fort level 4
+		}
 	}
 }
 
