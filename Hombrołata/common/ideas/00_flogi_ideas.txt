@@ -1001,18 +1001,17 @@ festung0 = {
 	}
 	
 	ai_will_do = {
-		factor = 0.34
+		factor = 0.68
 		modifier = {
 			factor = 0
-			NOT = { mil_tech = 14 } #advanced fortifications starts getting good at fort level 4
+			NOT = {
+				any_owned_province = {
+					is_capital = yes
+					continent = serpentspine
+				}
+			} # only allow this if you're in the serpentspine
 		}
-		modifier = { #serpentspine has lots of choke points for forts
-			factor = 2
-			any_owned_province = {
-				is_capital = yes
-				continent = serpentspine
-			}
-		}
+		NOT = { mil_tech = 12 } #advanced fortifications starts getting good at fort level 4
 	}
 }
 
