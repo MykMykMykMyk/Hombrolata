@@ -274,6 +274,10 @@ offensive_ideas = {
 
 	ai_will_do = {
 		factor = 0.94
+		modifier = {
+			factor = 0
+			NOT = { mil_tech = 14 }
+		}
 	}
 }
 
