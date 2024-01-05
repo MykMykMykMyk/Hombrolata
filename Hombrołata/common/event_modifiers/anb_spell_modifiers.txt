@@ -46,26 +46,23 @@ magic_noble_reshuffle = {
 }
 
 witch_king_modifier = {	#the witch king event should also give a ruler_flag, so we can check an event that fires to not become a witch kingdom with has_ruler_flag
-	diplomatic_reputation = -6
-	improve_relation_modifier = -0.2
-	
+	improve_relation_modifier = -0.30
 	legitimacy = 1
 	global_unrest = 2
 	stability_cost_modifier = -0.5
-	unjustified_demands = -0.33
+	unjustified_demands = -0.40
 	
 	max_absolutism = 10
 	
-	land_morale = 0.1
-	naval_morale = 0.1
-	discipline = 0.075
+	land_morale = 0.05
+	naval_morale = 0.05
+	discipline = 0.05
 	
-	ae_impact = 0.10
+	ae_impact = 0.20
 	
-	manpower_recovery_speed = 0.25
-	global_manpower_modifier = 0.25
-	land_forcelimit_modifier = 0.5
-	land_maintenance_modifier = -0.1
+	manpower_recovery_speed = 0.10
+	global_manpower_modifier = 0.10
+	land_forcelimit_modifier = 0.10
 	
 	republican_tradition = -1
 
@@ -280,21 +277,21 @@ magic_realm_enchantment_modify_memories_forget_atrocities = {
 #Evocation
 
 magic_realm_evocation_war_magic_1 = {
-	land_morale = 0.05
-	shock_damage = 0.2
+	land_morale = 0.0025
+	shock_damage = 0.10
 }
 
 magic_realm_evocation_war_magic_2 = {
-	land_morale = 0.1
-	shock_damage = 0.2
-	fire_damage_received = -0.1
+	land_morale = 0.05
+	shock_damage = 0.10
+	fire_damage_received = -0.05
 }
 	
 
 magic_realm_evocation_war_magic_3 = {
-	land_morale = 0.1
-	shock_damage = 0.3
-	fire_damage_received = -0.2
+	land_morale = 0.05
+	shock_damage = 0.15
+	fire_damage_received = -0.10
 }
 
 #Illusion
@@ -633,11 +630,11 @@ army_organiser_homunculus = {
 	country_military_power = 1
 }
 army_reformer_homunculus = { 
-	land_morale = 0.10
+	land_morale = 0.05
 	country_military_power = 1
 }
 commandant_homunculus = { 
-	discipline = 0.05
+	discipline = 0.025
 	country_military_power = 1
 }
 grand_captain_homunculus = { 
@@ -653,6 +650,6 @@ military_engineer_homunculus = {
 	country_military_power = 1
 }
 quartermaster_homunculus = { 
-	reinforce_speed = 0.33
+	reinforce_speed = 0.20
 	country_military_power = 1
 }
