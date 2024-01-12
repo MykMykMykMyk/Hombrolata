@@ -910,7 +910,7 @@ wehrpflicht0 = {
 	}
 
 	wehrpflicht5 = {
-		morale_damage_received = -0.005
+		morale_damage_received = -0.05
 	}
 	wehrpflicht7 = {
 		land_forcelimit_modifier  = 0.10
