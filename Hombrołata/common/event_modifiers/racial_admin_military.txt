@@ -103,7 +103,7 @@ dwarven_administration = {
 	defensiveness = 0.1						#0.5 B / amazing defenders
 	rival_border_fort_maintenance = -0.5	#3 E / GRUDGEBEARERS
 	inflation_action_cost = -0.25			#1 E /  dwarves are good with money and dealing with gold
-	build_time = -0.15
+	build_time = -0.10
 	development_cost = -0.05						#2 E / masterbuilders #Nerfed
 	
 	election_cycle = 12						#common long-lived cycle as its a generation of humans
