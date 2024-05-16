@@ -203,79 +203,79 @@ estate_middlecastes_organization_reformed = {
 	}
 }
 
-estate_middlecastes_land_rights = {
-	icon = privilege_grant_autonomy
-	land_share = 5
-	max_absolutism = -5
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	loyalty = 0.05
-	influence = 0.05
-	can_select = {
-	}
-	on_granted = {
-	}
-	penalties = {
-	}
-	benefits = {
-		governing_capacity = 100
-	}
-	ai_will_do = {
-		factor = 5
-		modifier = {
-			factor = 1.4
-			num_of_territories = 5
-		}
-		modifier = {
-			factor = 1.5
-			num_of_territories = 10
-		}
-		modifier = {
-			factor = 1.5
-			num_of_territories = 15
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = { crown_land_share = 25 }
-				estate_influence = {
-					estate = estate_middlecastes
-					influence = 75
-				}
-			}
-			NOT = { has_estate_privilege = estate_middlecastes_land_rights }
-		}
-		modifier = {
-			factor = 0
-			NOT = { num_of_territories = 1 }
-		}
-		modifier = {
-			factor = 0.8
-			OR = {
-				NOT = { crown_land_share = 40 }
-				AND = {
-					is_absolutism_active = yes
-					NOT = { crown_land_share = 60 }
-				}
-			}
-			NOT = { has_estate_privilege = estate_middlecastes_land_rights }
-		}
-		modifier = {
-			factor = 0.8
-			OR = {
-				NOT = { crown_land_share = 30 }
-				AND = {
-					is_absolutism_active = yes
-					NOT = { crown_land_share = 50 }
-				}
-			}
-			NOT = { has_estate_privilege = estate_middlecastes_land_rights }
-		}
-		modifier = {
-			factor = 0.8
-			is_absolutism_active = yes
-		}
-	}
-}
+#estate_middlecastes_land_rights = {
+#	icon = privilege_grant_autonomy
+#	land_share = 5
+#	max_absolutism = -5
+#	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+#	loyalty = 0.05
+#	influence = 0.05
+#	can_select = {
+#	}
+#	on_granted = {
+#	}
+#	penalties = {
+#	}
+#	benefits = {
+#		governing_capacity = 100
+#	}
+#	ai_will_do = {
+#		factor = 5
+#		modifier = {
+#			factor = 1.4
+#			num_of_territories = 5
+#		}
+#		modifier = {
+#			factor = 1.5
+#			num_of_territories = 10
+#		}
+#		modifier = {
+#			factor = 1.5
+#			num_of_territories = 15
+#		}
+#		modifier = {
+#			factor = 0
+#			OR = {
+#				NOT = { crown_land_share = 25 }
+#				estate_influence = {
+#					estate = estate_middlecastes
+#					influence = 75
+#				}
+#			}
+#			NOT = { has_estate_privilege = estate_middlecastes_land_rights }
+#		}
+#		modifier = {
+#			factor = 0
+#			NOT = { num_of_territories = 1 }
+#		}
+#		modifier = {
+#			factor = 0.8
+#			OR = {
+#				NOT = { crown_land_share = 40 }
+#				AND = {
+#					is_absolutism_active = yes
+#					NOT = { crown_land_share = 60 }
+#				}
+#			}
+#			NOT = { has_estate_privilege = estate_middlecastes_land_rights }
+#		}
+#		modifier = {
+#			factor = 0.8
+#			OR = {
+#				NOT = { crown_land_share = 30 }
+#				AND = {
+#					is_absolutism_active = yes
+#					NOT = { crown_land_share = 50 }
+#				}
+#			}
+#			NOT = { has_estate_privilege = estate_middlecastes_land_rights }
+#		}
+#		modifier = {
+#			factor = 0.8
+#			is_absolutism_active = yes
+#		}
+#	}
+#}
 
 estate_middlecastes_free_enterprise = {
 	icon = privilege_comission_merchant_ships_for_war
@@ -331,69 +331,69 @@ estate_middlecastes_sell_promotions = {
 	}
 }
 
-estate_middlecastes_land_of_commerce = {
-	icon = privilege_diplo_power
-	land_share = 10
-	max_absolutism = -5
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	loyalty = -0.05
-	is_valid = {
-		OR = {
-			caste_fluidity_is_fluid = yes
-			caste_fluidity_is_rigid = yes
-		}
-	}
-	can_select = {
-		OR = {
-			caste_fluidity_is_fluid = yes
-			caste_fluidity_is_rigid = yes
-		}
-	}
-	on_granted = {
-	}
-	penalties = {
-	}
-	benefits = {
-		country_diplomatic_power = 1
-	}
-	ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = { crown_land_share = 30 }
-				estate_influence = {
-					estate = estate_middlecastes
-					influence = 75
-				}
-			}
-			NOT = { has_estate_privilege = estate_middlecastes_land_of_commerce }
-		}
-		modifier = {
-			factor = 0.8
-			OR = {
-				NOT = { crown_land_share = 35 }
-				AND = {
-					is_absolutism_active = yes
-					NOT = { crown_land_share = 55 }
-				}
-			}
-			NOT = { has_estate_privilege = estate_middlecastes_land_of_commerce }
-		}
-		modifier = {
-			factor = 0.8
-			is_absolutism_active = yes
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { dip = 2 }
-		}
-		modifier = {
-			factor = 0.8
-			dip = 5
-		}
-	}
-}
+#estate_middlecastes_land_of_commerce = {
+#	icon = privilege_diplo_power
+#	land_share = 10
+#	max_absolutism = -5
+#	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+#	loyalty = -0.05
+#	is_valid = {
+#		OR = {
+#			caste_fluidity_is_fluid = yes
+#			caste_fluidity_is_rigid = yes
+#		}
+#	}
+#	can_select = {
+#		OR = {
+#			caste_fluidity_is_fluid = yes
+#			caste_fluidity_is_rigid = yes
+#		}
+#	}
+#	on_granted = {
+#	}
+#	penalties = {
+#	}
+#	benefits = {
+#		country_diplomatic_power = 1
+#	}
+#	ai_will_do = {
+#		factor = 10
+#		modifier = {
+#			factor = 0
+#			OR = {
+#				NOT = { crown_land_share = 30 }
+#				estate_influence = {
+#					estate = estate_middlecastes
+#					influence = 75
+#				}
+#			}
+#			NOT = { has_estate_privilege = estate_middlecastes_land_of_commerce }
+#		}
+#		modifier = {
+#			factor = 0.8
+#			OR = {
+#				NOT = { crown_land_share = 35 }
+#				AND = {
+#					is_absolutism_active = yes
+#					NOT = { crown_land_share = 55 }
+#				}
+#			}
+#			NOT = { has_estate_privilege = estate_middlecastes_land_of_commerce }
+#		}
+#		modifier = {
+#			factor = 0.8
+#			is_absolutism_active = yes
+#		}
+#		modifier = {
+#			factor = 1.25
+#			NOT = { dip = 2 }
+#		}
+#		modifier = {
+#			factor = 0.8
+#			dip = 5
+#		}
+#	}
+#}
 
 estate_middlecastes_patronage_of_the_arts = {
 	icon = privilege_build_jain_temple
