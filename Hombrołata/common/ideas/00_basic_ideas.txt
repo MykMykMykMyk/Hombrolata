@@ -851,7 +851,7 @@ quantity_ideas = {
 	}
 	bullandhorns = {  
 		yearly_army_professionalism = -0.003
-		reinforce_speed = 0.20
+		reinforce_speed = 0.30
 	}
 	expanded_supply_trains = {
 		land_attrition = -0.15
@@ -859,6 +859,7 @@ quantity_ideas = {
 	}
 	depth_defense = {  
 		free_land_leader_pool = 2
+		reinforce_cost = -0.25
 	}
 	
 	ai_will_do = {

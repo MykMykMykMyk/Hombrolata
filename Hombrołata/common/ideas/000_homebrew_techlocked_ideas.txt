@@ -401,8 +401,8 @@ shock0 = {
 		cav_to_inf_ratio = 0.35
 	}
 	shock5 = {
-		cavalry_power = 0.075
-		infantry_power = 0.075
+		cavalry_power = 0.15
+		infantry_power = 0.10
 	}
 	shock6 = {
 		shock_damage = 0.1
@@ -469,6 +469,7 @@ fire0 = {
 	fire2 = {
 		artillery_levels_available_vs_fort = 2
 		siege_ability = 0.10
+		infantry_power = 0.005
 	}
 	fire3 = {
 		artillery_cost = -0.10
@@ -479,7 +480,7 @@ fire0 = {
 	}
 
 	fire5 = {
-		artillery_power = 0.075
+		artillery_power = 0.10
 	}
 	fire6 = {
 		backrow_artillery_damage = 0.075
