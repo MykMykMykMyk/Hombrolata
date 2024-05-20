@@ -401,7 +401,7 @@ shock0 = {
 		cav_to_inf_ratio = 0.35
 	}
 	shock5 = {
-		cavalry_power = 0.15
+		cavalry_power = 0.10
 		infantry_power = 0.10
 	}
 	shock6 = {
@@ -457,7 +457,7 @@ fire0 = {
 		artillery_fire = 0.25
 		cavalry_fire = 1
 		infantry_shock = -0.1
-		cavalry_shock = -0.5
+		cavalry_shock = -0.3
 	}
 		
 	
